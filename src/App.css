@@ -1,38 +1,34 @@
-.App {
+.app {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #F2F2F2;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar {
+  background-color:  #798C35;
+  color:  #BFBB84;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/* Color Theme Swatches in Hex */
+.Top-view-of-spa-element-collection-1-hex { color: #344021; }
+.Top-view-of-spa-element-collection-2-hex { color: #4A5928; }
+.Top-view-of-spa-element-collection-3-hex { color: #798C35; }
+.Top-view-of-spa-element-collection-4-hex { color: #BFBB84; }
+.Top-view-of-spa-element-collection-5-hex { color: #F2F2F2; }
 
-.App-link {
-  color: #61dafb;
-}
+/* Color Theme Swatches in RGBA */
+.Top-view-of-spa-element-collection-1-rgba { color: rgba(52, 64, 33, 1); }
+.Top-view-of-spa-element-collection-2-rgba { color: rgba(74, 89, 40, 1); }
+.Top-view-of-spa-element-collection-3-rgba { color: rgba(121, 140, 53, 1); }
+.Top-view-of-spa-element-collection-4-rgba { color: rgba(191, 187, 132, 1); }
+.Top-view-of-spa-element-collection-5-rgba { color: rgba(242, 242, 242, 1); }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* Color Theme Swatches in HSLA */
+.Top-view-of-spa-element-collection-1-hsla { color: hsla(83, 31, 19, 1); }
+.Top-view-of-spa-element-collection-2-hsla { color: hsla(78, 37, 25, 1); }
+.Top-view-of-spa-element-collection-3-hsla { color: hsla(73, 45, 37, 1); }
+.Top-view-of-spa-element-collection-4-hsla { color: hsla(55, 31, 63, 1); }
+.Top-view-of-spa-element-collection-5-hsla { color: hsla(0, 0, 94, 1); }
